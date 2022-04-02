@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer;
+}
+
+.brandLogo {
+    &:hover {
+        opacity: 0.65;
+    }
+}
+
+.backLila {
+    position: relative;
+    &:before {
+        background-color: $primary;
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 150%;
+        height: 65%;
+        bottom: -5%;
+        right: -70%;
+        border-radius: 0 0 0 60px;
+        @media (max-width: $sm_own) {
+            bottom: -2%;
+            width: 65%;
+            right: 0;
+        }
+    }
+    &.backLila__left {
+        &:before {
+            right: initial;
+            border-radius: 0 0 60px 0;
+            left: -70%;
+            @media (max-width: $sm_own) {
+                left: 0;
+            }
+        }
+    }
+}
+
+picture {
+    position: relative;
+    z-index: 10;
+}
