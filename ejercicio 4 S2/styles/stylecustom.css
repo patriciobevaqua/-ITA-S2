@@ -1,0 +1,22 @@
+#myTab li a { border-color: transparent; color: rgb(120,120,120);}
+
+#myTab li .active{
+    border-bottom: 3px solid #FA5959;
+    color: rgb(50,50,50);
+}
+
+#chrome, #firefox, #opera{
+    position: relative;
+}
+#chrome .card{
+    position: relative;
+    top: -50px;
+}
+#firefox .card{
+    position: relative;
+    top: -20px;
+}
+#opera .card{
+    position: relative;
+    top: 10px;
+}
