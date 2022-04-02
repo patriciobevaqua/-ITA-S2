@@ -1,0 +1,6 @@
+# Código gitignore para evitar procesar los directorios de las dependencias
+# (Para evitar subir al repo la carpeta node_modules)
+
+node_modules
+
+
