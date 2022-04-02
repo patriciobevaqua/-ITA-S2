@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="images/favicon-32x32.png">
+    <title>Sprint2 Bookmark</title>
+    <!--<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="./styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/stylecustom.css">
+
+</head>
+
+<body>
+    <!--EJERCICIO 1-->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  p-lg-5">
+        <div class="container d-flex justify-content-between">
+            <div class="col-6">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo-bookmark.svg" alt="logoBookmark">
+                </a>
+            </div>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="images/icon-hamburger.svg">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-between text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">FEATURES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PRICING</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary">LOGIN</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--main content-->
+    <main>
+        <div class="container mt-5">
+            <section class="row">
+                <div class="col-12 col-lg-6 mb-4 p-lg-5 text-center text-lg-start">
+                    <h1 class="text-capitalize mb-4">A simple bookmark manager</h1>
+                    <p class="mb-4">A clean and simple interface to organize your favourite websites. Open a new browser
+                        tab
+                        and see your sites load instantly. Try it for free.</p>
+                    <button type="button" class="btn btn-primary shadow me-lg-3">Get it on Chrome</button>
+                    <button type="button" class="btn btn-light shadow">Get it on firefox</button>
+                </div>
+                <div class="col-12 col-lg-6 backLila">
+                    <img src="images/illustration-hero.svg" class="img-fluid" alt="background">
+                </div>
+            </section>
+
+            <!--EJERCICIO 2 FEATURES-->
+            <section class="row  mt-5 pb-4">
+                <div class="col-12 text-center mb-lg-3">
+                    <h1 class="text-center mb-4"><strong>Features</strong></h1>
+                    <p class="mb-4 col-12 col-lg-5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque
+                        sint placeat libero nesciunt rerum hic nulla neque repudiandae architecto exercitationem dolorum
+                        corporis consequuntur, sed dignissimos aut fugit, qui, sit odio.</p>
+                </div>
+
+                <ul class="nav nav-tabs justify-content-center d-flex flex-column flex-lg-row text-center mx-3"
+                    id="myTab">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#one" data-bs-toggle="tab">Simple
+                            Bookmarking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#two" data-bs-toggle="tab">Speedy Searching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#three" data-bs-toggle="tab">Early Sharing</a>
+                    </li>
+                </ul>
+                <div class="tab-content my-tab">
+                    <div class="tab-pane active" id="one">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row pt-5">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <img src="images/illustration-features-tab-1.svg" class="img-fluid"
+                                            alt="background">
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-lg-5 text-center text-lg-start">
+                                        <h3 class="mb-4">Bookmark in one click</h3>
+                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                                            facere sit natus temporibus impedit. Nostrum ad, eaque earum id soluta ipsum
+                                            nobis quo quis. Illum id quod vel velit facilis nihil excepturi possimus
+                                            nulla?
+                                            Dolorem necessitatibus magnam aliquid cumque ipsam.</p>
+                                        <button type="button" class="btn btn-primary">More info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="two">
+                        <div class="row pt-5">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <img src="images/illustration-features-tab-2.svg" class="img-fluid"
+                                            alt="background">
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-lg-5 text-center text-lg-start">
+                                        <h3 class="mb-4">Bookmark in one click</h3>
+                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                                            expedita, ratione dolor tempore esse voluptate harum quae! Tempore,
+                                            distinctio!
+                                            Libero minus hic dicta reiciendis, repellat, voluptatum nesciunt mollitia
+                                            dolorum ex numquam delectus cum ullam rem.</p>
+                                        <button type="button" class="btn btn-primary">More info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="three">
+                        <div class="row pt-5">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <img src="images/illustration-features-tab-3.svg" class="img-fluid"
+                                            alt="background">
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-lg-5 text-center text-lg-start">
+                                        <h3 class="mb-4">Bookmark in one click</h3>
+                                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                            libero sequi odio corporis assumenda totam eius, veniam labore? Perspiciatis
+                                            repellat eius reprehenderit labore nesciunt laboriosam doloremque at,
+                                            voluptas
+                                            quod, quae debitis aliquam nihil neque facere a. Voluptate deserunt enim
+                                            facere
+                                            perspiciatis quae iste adipisci quia omnis? Repudiandae rerum maxime et!</p>
+                                        <button type="button" class="btn btn-primary">More info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
